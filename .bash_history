@@ -231,3 +231,95 @@ git push
 git commit -m " cree module health"
 git push
 curl -i http://localhost:3000
+nest generate module buildings
+nest generate controller buildings --no-spec
+nest generate service buildings --no-spec
+git checkout -b "feature/02-api-batiments"
+git checkout -b "task/03-initialiser-api"
+git checkout -b "task/04-ajouter-route-verif-etat"
+git checkout -b "task/05-documenter-architecture"
+git checkout -b "task/01-creer-ressource-buildings"
+git checkout -b "task/13-creer-ressource-rooms"
+git checkout -b "chore/ajouter-template-pr"
+git branch
+git checkout 
+mkdir -p src/buildings/dto
+mkdir -p src/buildings/entities
+touch src/buildings/dto/create-building.dto.ts
+touch src/buildings/entities/building.entity.ts
+touch src/buildings/dto/create-building.dto.ts
+mkdir -p src/buildings/dto
+touch src/buildings/entities/building.entity.ts
+git checkout  "task/13-creer-ressource-rooms"
+git checkout "task/13-creer-ressource-rooms"
+git checkout -b "task/13-creer-ressource-rooms"
+git pull
+git branch --set-upstream-to=<remote>/<branch> task/13-creer-ressource-rooms
+git fetch origin
+git checkout task/13-creer-ressource-rooms
+git branch --set-upstream-to=origin/task/13-creer-ressource-rooms
+git pull
+git remote add origin https://github.com/Riquelme04/laboratoireCollecte.git
+git pull
+git branch --set-upstream-to=origin/laboratoireCollecte task/13-creer-ressource-rooms
+clear
+mkdir -p src/rooms/dto
+touch src/rooms/dto/create-room.dto.ts
+touch src/rooms/dto/update-room.dto.ts
+mkdir -p src/rooms/entities
+touch src/rooms/entities/room.entity.ts
+git add .
+git commit -m "creer module rooms"
+git push
+git push --set-upstream origin task/13-creer-ressource-rooms
+unset GIT_ASKPASS
+unset SSH_ASKPASS
+git remote -v
+origin  https://github.com/Riquelme04/laboratoireCollecte.git
+git push --set-upstream origin task/13-creer-ressource-rooms
+git pull --rebase origin task/13-creer-ressource-rooms
+git stash
+git pull --rebase origin task/13-creer-ressource-rooms
+git checkout --theirs package-lock.json
+git add package-lock.json
+git rebase --continue
+git stash pop
+git status
+git add .
+git commit -m "Créer ressource rooms"
+git push --set-upstream origin task/13-creer-ressource-rooms
+root@cod-2-valadezriquelmejon:~# git push --set-upstream origin task/13-creer-ressource-rooms
+Username for 'https://github.com': Riquelme04
+Password for 'https://Riquelme04@github.com': 
+To https://github.com/Riquelme04/laboratoireCollecte.git
+error: failed to push some refs to 'https://github.com/Riquelme04/laboratoireCollecte.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you want to integrate the remote changes, use 'git pull'
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+git status
+git add .
+git commit -m "cree rooms"
+git rebase --continue
+git push --set-upstream origin task/13-creer-ressource-rooms
+git ls-files | grep '^\.vscode-server/'
+echo ".vscode-server/" >> .gitignore
+git rm -r --cached .vscode-server
+git status
+git log --oneline --all -- .vscode-server | head -20
+grep -n ".vscode-server" .gitignore
+git rm -r --cached .vscode-server
+git log --oneline --decorate --graph -10
+git reset --soft 919f6f5
+git status
+git add .
+git status
+git commit -m "Créer ressource rooms"
+git log --oneline --decorate --graph -5
+git ls-tree -r --name-only HEAD | grep '^.vscode-server/'
+git push --set-upstream origin task/13-creer-ressource-rooms
+git add .
+git ommit -m "Créer ressource rooms"
+git commit -m "nouveau room"
+git add .
+git commit -m "nouveau room"
