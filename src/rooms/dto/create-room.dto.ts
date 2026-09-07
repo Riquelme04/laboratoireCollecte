@@ -1,8 +1,10 @@
 import { ApiProperty } from '@nestjs/swagger';
 
+
 export class CreateRoomDto {
-    name: string;
-    buildingId: number;
-    floorNumber: number;
-    area: number;
-  }
+  code!: string;        
+  buildingId!: string;  
+  floor!: number;       
+  capacity!: number;    
+  type?: string;        
+}
